@@ -1,6 +1,6 @@
 # BindView
  改项目主要是为了学习ButterKnife,而实现的view的注入,
- 支持实现类似[ButterKnife](https://github.com/JakeWharton/butterknife) 的 `BindView`，`OnClick`，`BindLayout`
+ 支持实现类似[ButterKnife](https://github.com/JakeWharton/butterknife) 的 `BindView`，`OnClick(多id）`，`BindLayout`
  `BindLayout`注解为：
  
  ```			
