@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gxz.bindview.MainActivity">
+
+    <fragment
+        class="com.gxz.bindview.MyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:tag="hello"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Hello World!"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/id_btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="OnClick-测试0"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/id_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="OnClick-测试1"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/id_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="在adapter中使用-测试"
+        android:textAllCaps="false"/>
+</LinearLayout>
