@@ -55,6 +55,5 @@ public class MainActivity extends AppCompatActivity {
 
 }
  ```
- 
- #效果图
+#效果图
  <img src="./demo.gif"/></p>
