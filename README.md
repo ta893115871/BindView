@@ -15,7 +15,7 @@
 
 #simple
 
-```
+``` 
 package com.gxz.bindview;
 
 import android.content.Intent;
